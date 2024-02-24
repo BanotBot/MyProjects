@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="BusayStyle.css">
+  <title>BusayBlog</title>
+</head>
+<body>
+  <main>
+    <header>
+      <!-- Navigation Bar -->
+      <nav>
+        <ul>
+          <li> Location </li>
+          <li> Activities </li>
+          <li> Food & Drinks </li>
+          <li> Fees </li>
+        </ul>
+      </nav>
+      <div class="image-logo-busay">
+        <img src="busay logo.jpg" alt="BusayLogo">
+      </div>
+    </header>
+
+    <!-- Video -->
+    <section class="section-1">
+      <h1>
+        Amazed to the Beauty of <br><span id="span-1"> CANTAPOY , MALIMONO , SDN
+        </span><br><br>
+        <span id="span-2">BUSAY</span>
+      </h1>
+      <video src="videobusay.mp4" controls autoplay controlsList="nodownload" >
+        <source src="videobusay.mp4" type="video/mp4">
+        Your Browser does not support the video tag. 
+      </video>
+    </section>
+
+    <!-- Section Cards -->
+    <section>
+      <div class="cards-container">
+
+        <!-- cards 1-->
+        <div class="cards">
+          <img src="refresh.jpg" alt="Refresh" id="refresh">
+          <div class="cards-body">
+            <h3>Refresh</h3>
+            <p id="refresh-p">By giving yourself a refreshment of free time ...</p>
+            <button>READ</button>
+          </div>
+        </div>
+
+        <!-- Cards 2 -->
+        <div class="cards">
+          <img src="FAMILY.jpg" alt="family">
+          <div class="cards-body">
+            <h3>Spend Time with Families, Friends & Love-Ones</h3>
+            <p>Spend your time with family and friends and love ones , have fun with ... </p>
+            <button>READ</button>
+          </div>
+        </div>
+
+        <!--cards 3 -->
+        <div class="cards">
+          <img src="nature.jpg" alt="Nature">
+          <div class="cards-body">
+            <h3>Nature</h3>
+            <p id="nature-p">Enjoy the Beauty of Busay natural environment , feel the freshness of the air ... </p>
+            <button>READ</button>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <section id="section-cards-4">
+      <!-- cards 4 -->
+      <div class="cards-4">
+        <img src="freshwater.jpg" alt="Water">
+        <div class="cards-body">
+          <h3>
+            Amazed the Freshness of the Native Water
+          </h3>
+          <p id="water-p">Give yourselve's experience the Freshness of Busay Water ... </p>
+          <button id="button-cards-4">READ</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      
+        <div class="footer-container">
+          <div class="border-style">
+            <h2 id="Busay-footer"> BUSAY </h2>
+          <div class="busay-info">
+            <div class="about-busay">
+              <h3> About Busay </h3>
+              <ul>
+                <li>FAQ's</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy </li>
+                <li> Your Privacy Choices </li>
+              </ul>
+            </div>
+            <div class="follow-us-logo">
+              <!-- Icon of the social media -->
+                <h3>Follow Us : </h3>
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEXElEQVR4nO2aW4hWVRTHP7Um6O4tsDQrDUJNBsKXXpKpzDG6aBfJpygdFB96UScfiiRLg6CgIqInDUuLirRQELoQFhVpEWGhL14g8tZ4zWScXyzmv3F3OmeffS7zffMwf9gwnLP2f+//t/dea+11ptEYwhAGN4DLgU5gLbAF+A04BpxTs793A5uBNcBs69MYDACGafLvA2cpjr+BjRI1rFUiHgZ+9ibVC+wAVgPzgCnASOBiNft7qt69AHyjPg4/AXObKWAysN2bwD5gOXBtCa7rgBXAfo9vG3DTwMz+wsALgBMa8E9gof3aNfC2AV3AYXEfB+bXM+v/nwXbMg7rbasMwDijgA3eOKvqFvGGiP8BnqiNPHvMLnk6w2t1kbqVOAXcUwtp3LidwOlaVkZnwq1EZRHAJLla430MeASYBdwGjM0Q41bm0SreyR3s0ttJbvfZhGfKQnvGNjP0lPJmnotdX0HEDOCgN9E/gK060BsUSL/wtlB7Bo9zAFvLBDvnYkt5J+AW4KR4vgJuD9juyhEy2nPNDxTxUi5iLywpwjh+FMe7wEU59kEhBmCxbHZGpTM6YC5ilwp2OsCO47KU92OAmcBdansjhLQBB2SX73i0bw0ryogQx7osDmBlIMFsz+F9Wnbv5U3gCmWkvWVyJ49njwacnng+X8/PKcHcnmiTcngnAOeBM8ClMdtqRwURtgVc7BmRePeD3i2twP+dOGaFjOxSZFhdYaBrnMdLEXheq1H6QkX/pczwYsjIbnaGeRWjt2Fv4vl4PT9YljsRGj5pZAH4XUZTGyWhjMCwJyWuGHaX5TYA03J5gKMyGtUYvELGiOdwyMgOqKEtkvRBFRX81pMjpDelj2szIsa8RDxnQ0Yu04wKhJaRZsSDkJAQRhfxiiEj+1UMVxcU8rGyXL9dlbAdkWIzUkUKw6ECt0jDkZCR1aIM0woK2RRjn8HRIY6vI+1vlf2vIaNPZTS3iUKWiOPtSHsrJxk2h4ys3hQONulCLFvuTrSulFS8O6XZfcSwLHLMl2T/fMjoXhl924LDfl/BFCU7A7aUW7e1PiueRZBOV1rjt7dyhBxJ6WNtXMR44zW3U8GkUcYfVMm3BjIgcqGik38mgbtl3JN0oa0UAlwJ/CWOjthr6i9FDmCThHSr/64ine73VmViq4XQfzZcsO4sWw76HBjeKiHAcOBL9d1WpK8juMEr0HW3UMhKb3dMKNI3md32qS1pthDgSd0q+0qXTD2yVZqAET7eLCHAIgkwPFdFg0/6qidmbSjNryqE/s90azwRL9ciwhvgKY/cqiGT6xYC3KgyERqrnpVIGeghLyid0UqNqyrEamjAK14x+1iVAkismIletcUJeh24Q5enaCGq1r+ZqDxuAa4fUBGJic0Bvue/sOLFZzlCDqmkanVhH8Y1p2kCUgTZSrzjxZwiafxJfVid2RgsoL8ocCfwDPBR8qMMcLP+heNDfcHqiK3WDGEIjdbhX7VSBsU5qan/AAAAAElFTkSuQmCC" id="icon" alt="
+              facebook">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADVElEQVR4nO2Za2hOcRzHj9k0irlsKyPXMKEVNoVSxkY0SniDZCkSikLai5GGpOTywuWFvFFIbk3Z9kopMblkc3slhAy5zHX76G/f086e9pxznvM8a+fF+dSp53nO9/f7/X//2/k9/2NZEREREREREf4AMoDxQBmwHtgFnAQuArXAXeA58A74qKuZjnx13HsNPJNdHXAZOAFUAusUpwgYAqQn2/gRwB7gIfCb7uMncMEkFiSJNcC3GIdv1PungSpgE7AcmKveywfygAG6+sT4zHLcGwyMk52xXwps0EifAq4BT2M68A+wJZEkzLC2yNgM+zwT3OoGgHRgmqawoRVY5MewJ/BSRgeAHlZIAA6qXfV+xAUSv016kaUYoK9jAxnmJV4i4XUrhAD1al+pl3CrhMesEAKcVfs2egkPS+h/d+hoXwNMCtpQL4Ddat9RL+EVCRd7eu3cHm2ZpkMGBvHhBrBCMWq8hLcknO4qjG/vpMlMAVMVBPHVGdqKDY+9hPclLHAVxre3ueT43ADMD+IvFmC0fL73Epp6yTDGVRjf/j/6XAw8ciRUbeq1IH5tgFz5+uv6jFMZYsizkkxE39OAVSom7TLjOJAT0H+mo2My3YSfJcpKRSKO3/sD+1QAogp4O9ArQIxf8tHPTWQXaRmpTMRxP19TLPD6AT7INrc7ExkLXHUkYirchQnG+OJnRD5JNCCMU4u2arjVz2J/pUBDQ7rYs+WnyUtohtqQn2wiwGzggWMamfJlYhC/NuaxIF8vLDeAexJOdRXGt+/qB2Khr/8kwE0JiwMG6uoSpVS+67yE5yUsDxgo6XXgBrBWMc54CfdKWOUqjG+fdBnihnY+Q6WXsFzCaiuE0D5jVnoJZ0lonidpVsigfTOa4SXMcRwFFVohAugNfFf7sv0YmP3ecCOVO04Kj4Nq/RpMdhy73AEWBKlSUwFtJUmR47n0I6GjU+3Xdllhb6lPdAa7H9gMLANmAhOA4ToKTUuggYOAUcAUYI5ZwMA24JBOFhscJTuqesuC9IZZLzs0KqYn/NLiOHWPvezK1S/Nir/TtWxPIClT/I0ESoDVQAVwBDinNXUbaNTrArvR5jWC22uFRtnVyI/xVyH/JYoXup0zIiIiIiLCCjP/ADF/+rY5VVGSAAAAAElFTkSuQmCC" id="icon" alt="youtube">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADHUlEQVR4nO2aS0gWURiGp9Sy7LpKLQuhoDCjXVEEtTaoCKJd0KJlEGl0WWpBhRsJIgiJWrSoVZsgMOhGEGaLMsquWOQqIi9Zpj7x2TtwGkabX389M/C/K88378ycx3P7zpk/CAoqqKBJCdgJtAH9+Fef6lKXK0QT6VVjLi1h+gnUAxWBZwEVqovViUQtA9yVuT5ImYBjqltbErP1R1N5kDIB5apbbxLzmIKUiqT1mw4Q4E7MoH0IzM4ayMA4M1BN1kB+6LHzVT6j8tGsg2wARoFuoCyLIPOc2A3FrucyVvAMMhgDsgz4qPgtoDJLIKWR+BqgS9csp7sGHAKq0goSphZzY64tBM47C7Hp7ZTrl9iYg4BfLojWlfsG4XgWAfvl6087yBz3HcBtYIHjK0s7yJAeW+K+Q3oN7AWKvYMAK4HjwD3gs1rgZgKQDufvb8BjLyA2nQLNzmD+R47vt0LFEZAS4DDwPnLrhxkDUUr9RPZR9fcDwMYYkGGFisZ7h+VdwG7gILB6RkAs1QDaw/8esG2iZyQBSSryDHJBtjfhBkyD1abPKzEgIwrNTg0If1fjIfX7WsWqIgPX1JN2kCZZLjvdrNOZSq2Pb3K3yhpDpllpAnkmyw6Vj6jcGabpMfekEqRPlrF9hNYO076kz/QOApTq8qAT65po22rjQtdHVC5SedgbiMk5Qg13e3aIYNoTxAhYr+vdzmGb6UvgGeS5LFtVPqlye5iCON4indmaLipWp/ID3yBnZWlReTHwyYHZBayzFnJW/q/ACvmvKnbCN0iNVmrb9VUrVuvARNUDbHZ8w8rNVnkFMQGtsj11Zi9rmVPAI+CddR11u6W6vgR4pfuag0mKPINYpV86MNX/8a91/O3uIYRXEJNV3qmcdbMWYEtYSaX424FLzn6kI+lpyYyBOC3T6uRSoaJfuYaUaMau/N5BImvFOeCFcxg3oHTmtCWaQZ7EdILEPCOnY9DpAumV1/snt6iA5arb9yTmcCVuCDL+6a1OZlu0GqY6y+RDQKUgkn8M1Y2NZP3zdKRl2iJnstn6wUBBBRUUhPoDXvQv4Bl1zUwAAAAASUVORK5CYII=" id="icon" alt="tiktok"> 
+            </div>
+          </div>
+  
+          <!-- Sponsored part -->
+            <div class="supported-by">
+              <div class="supported-logo">
+                <h2>Supported By:</h2>
+                <ul>
+                  <li><img src="cantapoy logo.jpg" alt="Cantapoy logo"></li>
+                  <li><img src="malmono.jpg" alt="malimono"></li>
+                  <li><img src="sk.jpg" alt="sk"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+  </main>
+</body>
+</html>

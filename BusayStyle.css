@@ -1,0 +1,231 @@
+
+body{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  background-color: yellow;
+  padding: 15px ;
+  padding-bottom: 10px;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  position: relative;
+  justify-content: flex-end;
+  margin-right: 40px;
+  font-size: 20px;
+  font-family: Cooper Black;
+}
+
+.image-logo-busay img{
+  width: 100%;
+  height: auto;
+}
+
+/* Section 1 */
+.section-1{
+  align-items: center;
+  position: relative;
+  margin-top: 0;
+  top: 0px;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.section-1 h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: Cooper Black;
+}
+#span-1{
+  color: red;
+}
+#span-2{
+  color:red;
+  font-size: 35px;
+}
+.section-1 video{
+  width: 30%;
+  height: auto;
+  align-items: center;
+  position: relative;
+  left: 450px;
+}
+
+/* Cards */
+
+.cards-container{
+  display: flex;
+  margin-top: 0px;
+  padding-top: 0;
+}
+.cards {
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 10px 40px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  height:auto;
+  margin: 100px 0px 0px 79px;
+  left: 20px;
+  position: relative;
+  justify-content: center;
+}
+.cards:hover{
+  background-color:rgb(252, 227, 3);
+}
+.cards img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0 ;
+}
+#refresh{
+  height: 225px;
+}
+
+.cards-body{
+  text-align: center;
+  font-family: cooper black;
+}
+
+.cards-body p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+
+/* Cards paragraph alignments  */
+#refresh-p{
+  margin-top: 40px;
+}
+#nature-p{
+  margin-top: 15px;
+}
+.cards-body button{
+  padding: 5px 10px 5px 10px;
+  background-color:black;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius:10%;
+  border: 1px solid black;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+/* cards 4 */
+#section-cards-4{
+  margin-top: 0px;
+}
+.cards-4{
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 10px 30px 10px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  height:auto;
+  margin: 80px 0px 0px 500px;
+  align-items: center;
+}
+.cards-4:hover{
+  background-color:rgb(252, 227, 3);
+}
+.cards-4 img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0 ;
+}
+#water-p{
+  margin-top: 30px;
+}
+#button-cards-4{
+  margin-top: 30px;
+}
+
+.footer-container{
+  background-color: rgb(17, 16, 16);
+  color: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.border-style{
+  position: relative;
+  border: 1px solid #ccc;
+  width: 790px;
+  padding-bottom: 90px;
+  margin-left: 255px;
+  margin-top: 40px;
+  justify-content: center;
+}
+#Busay-footer{
+ text-align: center;
+ font-family: cooper black;
+ font-size: 30px;
+}
+.busay-info{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 160px;
+  top: 30px;
+}
+.busay-info h3{
+  font-family: cooper;
+  font-size: large;
+  font-variant: small-caps;
+  margin-left: 30px;
+}
+.about-busay ul{
+ list-style: none;
+ color: yellow;
+}
+.about-busay li{
+  margin-top: 10px;
+}
+
+
+.follow-us-logo img{
+  height: 30px;
+}
+#icon{
+ position: relative;
+ align-items: right;
+ left: 30px;
+
+}
+
+
+/* sponsored logo */
+.supported-by{
+  margin-top: 90px;
+  position: relative;
+}
+.supported-by h2{
+  text-align: center;
+  font-size: 30px;
+  font-family: cooper;
+  font-weight: 0;
+}
+.supported-logo ul img{
+  margin-top: 40px;
+  height: 150px;
+  border-radius: 200px;
+  line-height: normal;
+  
+}
+.supported-logo ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 30px;
+}
